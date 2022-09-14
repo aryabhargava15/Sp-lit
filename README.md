@@ -1,2 +1,2 @@
-# Spl-lit
+# Sp-lit
 Sp-lit is a combination of several utilities including a team builder (which splits people into optimal teams based on results on a five-factor personality test). Spl-it's team creator implements a genetic algorithm that creates random teams, and then forces them to "reproduce"—to form a third team composed of random selections from the two parent teams.  That third team then may undergo random mutations wherein a couple of members are re-organized to introduce more diversity to our pool of options.  Then, we measure the fitness of each team (currently, that is based on similarity in two factor scores), sort it, and crop our holding list for "survival of the fittest". 
